@@ -269,7 +269,7 @@
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
-			<integer>16</integer>
+			<string>Detect</string>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
@@ -303,6 +303,8 @@
 				<data>G1kAAA==</data>
 				<key>disable-external-gpu</key>
 				<data>AQAAAA==</data>
+				<key>enable-hdmi-dividers-fix</key>
+				<data>AQAAAA==</data>
 				<key>enable-hdmi20</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con1-alldata</key>
@@ -310,6 +312,10 @@
 				<key>framebuffer-con1-enable</key>
 				<data>AQAAAA==</data>
 				<key>framebuffer-con1-type</key>
+				<data>AAgAAA==</data>
+				<key>framebuffer-con2-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-con2-type</key>
 				<data>AAgAAA==</data>
 				<key>framebuffer-fbmem</key>
 				<data>AACQAA==</data>
@@ -476,6 +482,8 @@
 		<true/>
 		<key>ProvideCustomSlide</key>
 		<true/>
+		<key>ResizeAppleGpuBars</key>
+		<integer>-1</integer>
 		<key>SetupVirtualMap</key>
 		<true/>
 	</dict>

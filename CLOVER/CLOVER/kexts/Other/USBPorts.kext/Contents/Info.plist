@@ -38,6 +38,14 @@
 			<string>AppleUSBXHCISPT</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
+				<key>kUSBSleepPortCurrentLimit</key>
+				<integer>2100</integer>
+				<key>kUSBSleepPowerSupply</key>
+				<integer>5100</integer>
+				<key>kUSBWakePortCurrentLimit</key>
+				<integer>2100</integer>
+				<key>kUSBWakePowerSupply</key>
+				<integer>5100</integer>
 				<key>port-count</key>
 				<data>
 				FgAAAA==
@@ -47,7 +55,7 @@
 					<key>HS01</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>0</integer>
+						<integer>3</integer>
 						<key>name</key>
 						<string>HS01</string>
 						<key>port</key>
@@ -58,7 +66,7 @@
 					<key>HS02</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>0</integer>
+						<integer>3</integer>
 						<key>name</key>
 						<string>HS02</string>
 						<key>port</key>
